@@ -1,10 +1,59 @@
-.App {
-  text-align: center;
+.navbar li {
+  display: inline-block;
+  padding: 10px;
+}
+.navbar li a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.contactForm h1 {
+  margin-left: 30px;
+}
+.contactForm input {
+  padding: 7px;
+  display: block;
+  border: 1px solid skyblue;
+  width: 300px;
+  margin: 20px;
+}
+.contactForm button {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.contactlist input {
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 2px solid skyblue;
+  padding-left: 20px;
+}
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

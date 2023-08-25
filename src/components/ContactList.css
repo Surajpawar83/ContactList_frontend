@@ -1,0 +1,21 @@
+.contact-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.contact-card h2 {
+  margin: 0;
+}
+
+.contact-card p {
+  margin: 8px 0;
+}
+
+.contact-card button {
+  margin-top: 8px;
+}
